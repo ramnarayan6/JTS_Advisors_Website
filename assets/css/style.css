@@ -1,0 +1,39 @@
+/*********************************
+Color and Text ******************/
+
+
+/***********Font****************/
+html body{
+    font-family: 'Muli', sans-serif;
+}
+
+
+/********Background Color*********/
+
+.my-bg-color{
+   background-color: #2E2E2E;
+}
+
+/******Text Color********/
+
+.my-text-color{
+    color: #b09891;
+}
+a:hover{
+    color: #ffffff;
+}
+
+/******space between the letters of the title********/
+
+.title{
+    letter-spacing: 8px;  
+}
+
+/******image top********/
+header{
+    background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+}
+
